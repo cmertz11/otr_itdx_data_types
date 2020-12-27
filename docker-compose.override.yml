@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  data_types_db:
+    container_name: data_types_db
+    entrypoint: redis-server --appendonly yes
+    restart: always        
+    ports:
+        - "6379:6379"
+    volumes:
+        - ./redis-volume:/data
+   
+  data_types_api:
+    container_name: itdx_data_types_api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ASPNETCORE_Data_Type_Db_Settings__ConnectionString=data_types_db:6379"
+      - "ASPNETCORE_healthcheck__endpoint=http://host.docker.internal:8000/api/health"
+    ports:
+      - "8000:80"
+    depends_on:
+      - data_types_db
+      

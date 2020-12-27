@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  data_types_db:
+    image: redis
+
+  data_types_api:
+    image: ${DOCKER_REGISTRY-}datatypesapi
+    build:
+      context: .
+      dockerfile: data_types_api/Dockerfile
+

@@ -1,0 +1,1279 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$11
+ITDX_LOADED
+$5
+false
+*3
+$3
+SET
+$11
+LinkageType
+$167
+{"Name":"LinkageType","Description":"The type of information in the record referenced by the link.","Data_Type_Record_List":[{"Code":"1","Description":"Prehospital"}]}
+*3
+$3
+SET
+$13
+HomeResidence
+$260
+{"Name":"HomeResidence","Description":"Documentation of the type of patient without a home ZIP code.","Data_Type_Record_List":[{"Code":"1","Description":"Homeless"},{"Code":"2","Description":"Undocumented Citizen"},{"Code":"3","Description":"Migrant Worker"}]}
+*3
+$3
+SET
+$11
+DateOfBirth
+$94
+{"Name":"DateOfBirth","Description":"The patient's date of birth.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$3
+Age
+$119
+{"Name":"Age","Description":"The patient's age at the time of injury (best approximation).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$8
+AgeUnits
+$348
+{"Name":"AgeUnits","Description":"The units used to document the patient's age (Years, Months, Days, Hours).","Data_Type_Record_List":[{"Code":"1","Description":"Hours"},{"Code":"2","Description":"Days"},{"Code":"3","Description":"Months"},{"Code":"4","Description":"Years"},{"Code":"5","Description":"Minutes"},{"Code":"6","Description":"Weeks"}]}
+*3
+$3
+SET
+$4
+Race
+$358
+{"Name":"Race","Description":"The patient's race.","Data_Type_Record_List":[{"Code":"1","Description":"Asian"},{"Code":"2","Description":"Native Hawaiian or Other Pacific Islander"},{"Code":"3","Description":"Other Race"},{"Code":"4","Description":"American Indian"},{"Code":"5","Description":"Black or African American"},{"Code":"6","Description":"White"}]}
+*3
+$3
+SET
+$9
+Ethnicity
+$187
+{"Name":"Ethnicity","Description":"The patient's ethnicity.","Data_Type_Record_List":[{"Code":"1","Description":"Hispanic or Latino"},{"Code":"2","Description":"Not Hispanic or Latino"}]}
+*3
+$3
+SET
+$3
+Sex
+$145
+{"Name":"Sex","Description":"The patient's sex.","Data_Type_Record_List":[{"Code":"1","Description":"Male"},{"Code":"2","Description":"Female"}]}
+*3
+$3
+SET
+$28
+PatientsOccupationalIndustry
+$890
+{"Name":"PatientsOccupationalIndustry","Description":"The occupational industry associated with the patient's work environment.","Data_Type_Record_List":[{"Code":"1","Description":"Finance, Insurance, and Real Estate"},{"Code":"2","Description":"Manufacturing"},{"Code":"3","Description":"Retail Trade"},{"Code":"4","Description":"Transportation and Public Utilities"},{"Code":"5","Description":"Agriculture, Forestry, Fishing"},{"Code":"6","Description":"Professional and Business Services"},{"Code":"7","Description":"Education and Health Services"},{"Code":"8","Description":"Construction"},{"Code":"9","Description":"Government"},{"Code":"10","Description":"Natural Resources and Mining"},{"Code":"11","Description":"Information Services"},{"Code":"12","Description":"Wholesale Trade"},{"Code":"13","Description":"Leisure and Hospitality"},{"Code":"14","Description":"Other Services"}]}
+*3
+$3
+SET
+$18
+PatientsOccupation
+$1673
+{"Name":"PatientsOccupation","Description":"The occupation of the patient.","Data_Type_Record_List":[{"Code":"1","Description":"Business and Financial Operations Occupations"},{"Code":"2","Description":"Architecture and Engineering Occupations"},{"Code":"3","Description":"Community and Social Services Occupations"},{"Code":"4","Description":"Education, Training, and Library Occupations"},{"Code":"5","Description":"Healthcare Practitioners and Technical Occupations"},{"Code":"6","Description":"Protective Service Occupations"},{"Code":"7","Description":"Building and Grounds Cleaning and Maintenance"},{"Code":"8","Description":"Sales and Related Occupations"},{"Code":"9","Description":"Farming, Fishing, and Forestry Occupations"},{"Code":"10","Description":"Installation, Maintenance, and Repair Occupations"},{"Code":"11","Description":"Transportation and Material Moving Occupations"},{"Code":"12","Description":"Management Occupations"},{"Code":"13","Description":"Computer and Mathematical Occupations"},{"Code":"14","Description":"Life, Physical, and Social Science Occupations"},{"Code":"15","Description":"Legal Occupations"},{"Code":"16","Description":"Arts, Design, Entertainment, Sports, and Media"},{"Code":"17","Description":"Healthcare Support Occupations"},{"Code":"18","Description":"Food Preparation and Serving Related"},{"Code":"19","Description":"Personal Care and Service Occupations"},{"Code":"20","Description":"Office and Administrative Support Occupations"},{"Code":"21","Description":"Construction and Extraction Occupations"},{"Code":"22","Description":"Production Occupations"},{"Code":"23","Description":"Military Specific Occupations"}]}
+*3
+$3
+SET
+$10
+ECodeIcd10
+$173
+{"Name":"ECodeIcd10","Description":"ICD-10 External cause code used to describe the mechanism (or external factor) that caused the injury event.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$17
+PlaceOfInjuryCode
+$188
+{"Name":"PlaceOfInjuryCode","Description":"ICD-10 Place of occurrence external cause code used to describe the place/site/location of the injury event (Y92.x).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$16
+ProtectiveDevice
+$762
+{"Name":"ProtectiveDevice","Description":"Protective devices (safety equipment) in use or worn by the patient at the time of the injury.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Lap Belt"},{"Code":"3","Description":"Personal Floatation Device"},{"Code":"4","Description":"Protective Non-Clothing Gear (E.g. Shin Guard)"},{"Code":"5","Description":"Eye Protection"},{"Code":"6","Description":"Child Restraint (Booster Seat or Child Car Seat)"},{"Code":"7","Description":"Helmet (E.g. Bicycle, Skiing, Motorcycle)"},{"Code":"8","Description":"Airbag Present"},{"Code":"9","Description":"Protective Clothing (E.g. Padded Leather Pants)"},{"Code":"10","Description":"Shoulder Belt"},{"Code":"11","Description":"Other"}]}
+*3
+$3
+SET
+$22
+ChildSpecificRestraint
+$286
+{"Name":"ChildSpecificRestraint","Description":"Protective child restraint devices used by patient at the time of injury.","Data_Type_Record_List":[{"Code":"1","Description":"Child Car Seat"},{"Code":"2","Description":"Infant Car Seat"},{"Code":"3","Description":"Child Booster Seat"}]}
+*3
+$3
+SET
+$16
+AirbagDeployment
+$367
+{"Name":"AirbagDeployment","Description":"Indication of an airbag deployment during a motor vehicle crash.","Data_Type_Record_List":[{"Code":"1","Description":"Airbag Not Deployed"},{"Code":"2","Description":"Airbag Deployed Front"},{"Code":"3","Description":"Airbag Deployed Side"},{"Code":"4","Description":"Airbag Deployed Other (Knee, Air Belt, Curtain, Etc.)"}]}
+*3
+$3
+SET
+$10
+TraumaType
+$291
+{"Name":"TraumaType","Description":"The main type of trauma injury sustained by the patient (e.g. blunt, penetrating).","Data_Type_Record_List":[{"Code":"1","Description":"Blunt"},{"Code":"2","Description":"Penetrating"},{"Code":"3","Description":"Burn"},{"Code":"4","Description":"Other"}]}
+*3
+$3
+SET
+$13
+TransportMode
+$406
+{"Name":"TransportMode","Description":"The mode of transport delivering the patient to your hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Ground Ambulance"},{"Code":"2","Description":"Helicopter Ambulance"},{"Code":"3","Description":"Fixed-Wing Ambulance"},{"Code":"4","Description":"Private/Public Vehicle/Walk-In"},{"Code":"5","Description":"Police"},{"Code":"6","Description":"Other"}]}
+*3
+$3
+SET
+$21
+TraumaCenterCriterion
+$1169
+{"Name":"TraumaCenterCriterion","Description":"Physiologic and anatomic EMS trauma triage criteria for transport to a trauma center as defined by the Centers for Disease Control and Prevention and the American College of Surgeons-Committee on Trauma. This information must be found on the scene of injury EMS run sheet.","Data_Type_Record_List":[{"Code":"1","Description":"Glasgow Coma Score <= 13"},{"Code":"2","Description":"Systolic Blood Pressure < 90 mmHg"},{"Code":"3","Description":"Respiratory Rate <10 or > 29 Breaths per Minute (<20 in Infants Aged <1 Year) or Need for Ventilatory Support"},{"Code":"4","Description":"All Penetrating Injuries to Head, Neck, Torso and Extremities Proximal to Elbow or Knee"},{"Code":"5","Description":"Chest Wall Instability or Deformity (E.g. Flail Chest)"},{"Code":"6","Description":"Two or More Proximal Long-Bone Fractures"},{"Code":"7","Description":"Crushed, Degloved, Mangled, or Pulseless Extremity"},{"Code":"8","Description":"Amputation Proximal to Wrist or Ankle"},{"Code":"9","Description":"Pelvic Fracture"},{"Code":"10","Description":"Open or Depressed Skull Fracture"},{"Code":"11","Description":"Paralysis"}]}
+*3
+$3
+SET
+$22
+VehiclePedestrianOther
+$1344
+{"Name":"VehiclePedestrianOther","Description":"EMS trauma triage mechanism of injury criteria for transport to a trauma center as defined by the Centers for Disease Control and Prevention and the American College of Surgeons-Committee on Trauma. This information must be found on the scene of injury EMS run sheet.","Data_Type_Record_List":[{"Code":"1","Description":"Fall Adults: > 20 ft. (One Story is Equal to 10 ft.)"},{"Code":"2","Description":"Fall Children: > 10 ft. or 2-3 Times the Height of the Child"},{"Code":"3","Description":"Crash Intrusion, Including Roof: > 12 in. Occupant Site; > 18 in. Any Site"},{"Code":"4","Description":"Crash Ejection (Partial or Complete) from Automobile"},{"Code":"5","Description":"Crash Death in Same Passenger Compartment"},{"Code":"6","Description":"Crash Vehicle Telemetry Data (AACN) Consistent with High Risk Injury"},{"Code":"7","Description":"Auto v. Pedestrian/Bicyclist Thrown, Run Over, or > 20 mph Impact "},{"Code":"8","Description":"Motorcycle Crash > 20 mph"},{"Code":"9","Description":"For Adults > 65; SBP < 110"},{"Code":"10","Description":"Patients on Anticoagulants and Bleeding Disorders"},{"Code":"11","Description":"Pregnancy > 20 Weeks"},{"Code":"12","Description":"EMS Provider Judgment"},{"Code":"13","Description":"Burns"},{"Code":"14","Description":"Burns with Trauma"}]}
+*3
+$3
+SET
+$3
+Sbp
+$116
+{"Name":"Sbp","Description":"First recorded systolic blood pressure in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+PulseRate
+$164
+{"Name":"PulseRate","Description":"First recorded pulse in the ED/hospital (palpated or auscultated), expressed as a number per minute.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+Temperature
+$144
+{"Name":"Temperature","Description":"First recorded temperature (in degrees Celsius/Centigrade) in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+RespiratoryRate
+$156
+{"Name":"RespiratoryRate","Description":"First recorded respiratory rate in the ED/hospital (expressed as a number per minute).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$21
+RespiratoryAssistance
+$284
+{"Name":"RespiratoryAssistance","Description":"Determination of respiratory assistance associated with the initial ED/hospital respiratory rate.","Data_Type_Record_List":[{"Code":"1","Description":"Unassisted Respiratory Rate"},{"Code":"2","Description":"Assisted Respiratory Rate"}]}
+*3
+$3
+SET
+$13
+PulseOximetry
+$148
+{"Name":"PulseOximetry","Description":"First recorded oxygen saturation in the ED/hospital (expressed as a percentage).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$18
+SupplementalOxygen
+$291
+{"Name":"SupplementalOxygen","Description":"Determination of the presence of supplemental oxygen during assessment of initial ED/hospital oxygen saturation level.","Data_Type_Record_List":[{"Code":"1","Description":"No Supplemental Oxygen"},{"Code":"2","Description":"Supplemental Oxygen"}]}
+*3
+$3
+SET
+$6
+GcsEye
+$381
+{"Name":"GcsEye","Description":"First recorded Glasgow Coma Score (Eye) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"No Eye Movement When Assessed"},{"Code":"2","Description":"Opens Eyes in Response to Painful Stimulation"},{"Code":"3","Description":"Opens Eyes in Response to Verbal Stimulation"},{"Code":"4","Description":"Opens Eyes Spontaneously"}]}
+*3
+$3
+SET
+$9
+GcsVerbal
+$634
+{"Name":"GcsVerbal","Description":"First recorded Glasgow Coma Score (Verbal) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"(Adult) No Verbal Response (Pediatric) No Vocal Response"},{"Code":"2","Description":"(Adult) Incomprehensible Sounds (Pediatric) Inconsolable, Agitated"},{"Code":"3","Description":"(Adult) Inappropriate Words (Pediatric) Inconsistently Consolable, Moaning"},{"Code":"4","Description":"(Adult) Confused (Pediatric) Cries but is Consolable, Inappropriate Interactions"},{"Code":"5","Description":"(Adult) Oriented (Pediatric) Smiles, Oriented to Sounds, Follows Objects, Interacts"}]}
+*3
+$3
+SET
+$8
+GcsMotor
+$457
+{"Name":"GcsMotor","Description":"First recorded Glasgow Coma Score (Motor) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"No Motor Response"},{"Code":"2","Description":"Extension to Pain"},{"Code":"3","Description":"Flexion to Pain"},{"Code":"4","Description":"Withdrawal from Pain"},{"Code":"5","Description":"Localizing Pain"},{"Code":"6","Description":"(Adult) Obeys Commands (Pediatric) Appropriate Response to Stimulation"}]}
+*3
+$3
+SET
+$8
+TotalGcs
+$124
+{"Name":"TotalGcs","Description":"First recorded Glasgow Coma Score (total) in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+GcsQualifier
+$463
+{"Name":"GcsQualifier","Description":"Documentation of factors potentially affecting the first assessment of GCS upon arrival in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Patient Chemically Sedated or Paralyzed"},{"Code":"2","Description":"Obstruction to the Patient's Eye"},{"Code":"3","Description":"Patient Intubated"},{"Code":"4","Description":"Valid GCS: Patient Not Sedated, Not Intubated, and Did Not Have Obstruction to Eye"}]}
+*3
+$3
+SET
+$8
+Gcs40Eye
+$359
+{"Name":"Gcs40Eye","Description":"First recorded Glasgow Coma Score at 40 (Eye Opening) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) To Pressure (Pediatric) To Pain"},{"Code":"3","Description":"To Sound"},{"Code":"4","Description":"Spontaneous"}]}
+*3
+$3
+SET
+$11
+Gcs40Verbal
+$485
+{"Name":"Gcs40Verbal","Description":"First recorded Glasgow Coma Score at 40 (Verbal Response) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) Sounds (Pediatric) Cries"},{"Code":"3","Description":"(Adult) Words (Pediatric) Vocal Sounds"},{"Code":"4","Description":"(Adult) Confused (Pediatric) Words"},{"Code":"5","Description":"(Adult) Oriented (Pediatric) Talks Normally"}]}
+*3
+$3
+SET
+$10
+Gcs40Motor
+$604
+{"Name":"Gcs40Motor","Description":"First recorded Glasgow Coma Score at 40 (Best Motor Response) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) Extension (Pediatric) Extension to Pain"},{"Code":"3","Description":"(Adult) Abnormal Flexion (Pediatric) Flexion to Pain"},{"Code":"4","Description":"(Adult) Normal Flexion (Pediatric) Localizes Pain"},{"Code":"5","Description":"(Adult) Localizing (Pediatric) Obeys Commands"},{"Code":"6","Description":"(Adult) Obeys Commands (Pediatric) Blank"}]}
+*3
+$3
+SET
+$6
+Height
+$108
+{"Name":"Height","Description":"First recorded height upon ED/hospital arrival.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$6
+Weight
+$99
+{"Name":"Weight","Description":"Measured or estimated baseline weight.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$10
+DrugScreen
+$866
+{"Name":"DrugScreen","Description":"First recorded positive drug screen results within 24 hours after first hospital encounter (select all that apply).","Data_Type_Record_List":[{"Code":"1","Description":"AMP (Amphetamine)"},{"Code":"2","Description":"BAR (Barbiturate)"},{"Code":"3","Description":"BZO (Benzodiazepines)"},{"Code":"4","Description":"COC (Cocaine)"},{"Code":"5","Description":"mAMP (Methamphetamine)"},{"Code":"6","Description":"MDMA (Ecstasy)"},{"Code":"7","Description":"MTD (Methadone)"},{"Code":"8","Description":"OPI (Opioid)"},{"Code":"9","Description":"OXY (Oxycodone)"},{"Code":"10","Description":"PCP (Phencyclidine)"},{"Code":"11","Description":"TCA (Tricyclic Antidepressant)"},{"Code":"12","Description":"THC (Cannabinoid)"},{"Code":"13","Description":"Other"},{"Code":"14","Description":"None"},{"Code":"15","Description":"Not Tested"}]}
+*3
+$3
+SET
+$19
+AlcoholScreenResult
+$178
+{"Name":"AlcoholScreenResult","Description":"First recorded blood alcohol concentration (BAC) results within 24 hours after first hospital encounter.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$22
+EdDischargeDisposition
+$834
+{"Name":"EdDischargeDisposition","Description":"The disposition of the patient at the time of discharge from the ED.","Data_Type_Record_List":[{"Code":"1","Description":"Floor Bed (General Admission, Non-Specialty Unit Bed)"},{"Code":"2","Description":"Observation Unit (Unit That Provides < 24 Hour Stays)"},{"Code":"3","Description":"Telemetry/Step-Down Unit (Less Acuity than ICU)"},{"Code":"4","Description":"Home with Services"},{"Code":"5","Description":"Deceased/Expired"},{"Code":"6","Description":"Other (Jail, Institutional Care, Mental Health, Etc.)"},{"Code":"7","Description":"Operating Room"},{"Code":"8","Description":"Intensive Care Unit (ICU)"},{"Code":"9","Description":"Home Without Services"},{"Code":"10","Description":"Left Against Medical Advice"},{"Code":"11","Description":"Transferred to Another Hospital"}]}
+*3
+$3
+SET
+$9
+DeathInEd
+$250
+{"Name":"DeathInEd","Description":"Indication of whether patient arrived at ED/Hospital with signs of life.","Data_Type_Record_List":[{"Code":"1","Description":"Arrived with NO Signs of Life"},{"Code":"2","Description":"Arrived with Signs of Life"}]}
+*3
+$3
+SET
+$22
+HospitalProcedureIcd10
+$143
+{"Name":"HospitalProcedureIcd10","Description":"Operative and essential procedures conducted during hospital stay.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$17
+ComorbidCondition
+$1562
+{"Name":"ComorbidCondition","Description":"Pre-existing comorbid factors.","Data_Type_Record_List":[{"Code":"1","Description":"Other"},{"Code":"2","Description":"Alcohol Use Disorder"},{"Code":"4","Description":"Bleeding Disorder"},{"Code":"5","Description":"Currently Receiving Chemotherapy for Cancer"},{"Code":"6","Description":"Congenital Anomalies"},{"Code":"7","Description":"Congestive Heart Failure (CHF)"},{"Code":"8","Description":"Current Smoker"},{"Code":"9","Description":"Chronic Renal Failure"},{"Code":"10","Description":"Cerebral Vascular Accident (CVA)"},{"Code":"11","Description":"Diabetes Mellitus"},{"Code":"12","Description":"Disseminated Cancer"},{"Code":"13","Description":"Advance Directive Limiting Care"},{"Code":"15","Description":"Functionally Dependent Health Status"},{"Code":"19","Description":"Hypertension"},{"Code":"23","Description":"Chronic Obstructive Pulmonary Disease (COPD)"},{"Code":"24","Description":"Steroid Use"},{"Code":"25","Description":"Cirrhosis"},{"Code":"26","Description":"Dementia"},{"Code":"30","Description":"Attention Deficit Disorder/Attention Deficit Hyperactivity Disorder (ADD/ADHD)"},{"Code":"31","Description":"Anticoagulant Therapy"},{"Code":"32","Description":"Angina Pectoris"},{"Code":"33","Description":"Mental/Personality Disorders"},{"Code":"34","Description":"Myocardial Infarction (MI)"},{"Code":"35","Description":"Peripheral Arterial Disease (PAD)"},{"Code":"36","Description":"Substance Use Disorder"},{"Code":"37","Description":"Prematurity"},{"Code":"38","Description":"Pregnancy"}]}
+*3
+$3
+SET
+$14
+DiagnosisIcd10
+$114
+{"Name":"DiagnosisIcd10","Description":"Diagnoses related to all identified injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+AisPredot
+$151
+{"Name":"AisPredot","Description":"The Abbreviated Injury Scale (AIS) pre-dot codes that reflect the patient’s injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+AisSeverity
+$492
+{"Name":"AisSeverity","Description":"The Abbreviated Injury Scale (AIS) severity codes that reflect the patient’s injuries.","Data_Type_Record_List":[{"Code":"1","Description":"Minor Injury"},{"Code":"2","Description":"Moderate Injury"},{"Code":"3","Description":"Serious Injury"},{"Code":"4","Description":"Severe Injury"},{"Code":"5","Description":"Critical Injury"},{"Code":"6","Description":"Maximum Injury, Virtually Unsurvivable"},{"Code":"9","Description":"Not Possible to Assign"}]}
+*3
+$3
+SET
+$9
+IssRegion
+$417
+{"Name":"IssRegion","Description":"The Injury Severity Score (ISS) body region codes that reflects the patient’s injuries.","Data_Type_Record_List":[{"Code":"1","Description":"Head or Neck"},{"Code":"2","Description":"Face"},{"Code":"3","Description":"Chest"},{"Code":"4","Description":"Abdominal or Pelvic Contents"},{"Code":"5","Description":"Extremities or Pelvic Girdle"},{"Code":"6","Description":"External"}]}
+*3
+$3
+SET
+$10
+AisVersion
+$245
+{"Name":"AisVersion","Description":"The software (and version) used to calculate Abbreviated Injury Scale (AIS) severity codes.","Data_Type_Record_List":[{"Code":"6","Description":"AIS 2005, Update 2008"},{"Code":"16","Description":"AIS 2015"}]}
+*3
+$3
+SET
+$8
+IssLocal
+$134
+{"Name":"IssLocal","Description":"The Injury Severity Score (ISS) that reflects the patient’s injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+TotalIcuLos
+$135
+{"Name":"TotalIcuLos","Description":"The total number of patient days in any ICU (including all episodes).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$13
+TotalVentDays
+$159
+{"Name":"TotalVentDays","Description":"The total number of patient days spent on a mechanical ventilator (including all episodes).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$28
+HospitalDischargeDisposition
+$1288
+{"Name":"HospitalDischargeDisposition","Description":"The disposition of the patient when discharged from the hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Discharged/Transferred to a Short-Term General Hospital for Inpatient Care"},{"Code":"2","Description":"Discharged/Transferred to an Intermediate Care Facility (ICF)"},{"Code":"3","Description":"Discharged/Transferred to Home Under Care of Organized Home Health Service"},{"Code":"4","Description":"Left Against Medical Advice or Discontinued Care"},{"Code":"5","Description":"Deceased/Expired"},{"Code":"6","Description":"Discharged to Home or Self-Care (Routine Discharge)"},{"Code":"7","Description":"Discharged/Transferred to Skilled Nursing Facility (SNF)"},{"Code":"8","Description":"Discharged/Transferred to Hospice Care"},{"Code":"10","Description":"Discharged/Transferred to Court/Law Enforcement"},{"Code":"11","Description":"Discharged/Transferred to Inpatient Rehab or Designated Unit"},{"Code":"12","Description":"Discharged/Transferred to Long Term Care Hospital (LTCH)"},{"Code":"13","Description":"Discharged/Transferred to a Psychiatric Hospital or Psych Distinct Part Unit of a Hospital"},{"Code":"14","Description":"Discharged/Transferred to Another Type of Institution Not Defined Elsewhere"}]}
+*3
+$3
+SET
+$20
+PrimaryMethodPayment
+$429
+{"Name":"PrimaryMethodPayment","Description":"Primary source of payment for hospital care.","Data_Type_Record_List":[{"Code":"1","Description":"Medicaid"},{"Code":"2","Description":"Not Billed (For Any Reason)"},{"Code":"3","Description":"Self-Pay"},{"Code":"4","Description":"Private/Commercial Insurance"},{"Code":"6","Description":"Medicare"},{"Code":"7","Description":"Other Government"},{"Code":"10","Description":"Other"}]}
+*3
+$3
+SET
+$20
+HospitalComplication
+$1486
+{"Name":"HospitalComplication","Description":"Any medical complication that occurred during the patient’s stay at your hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Other"},{"Code":"4","Description":"Acute Kidney Injury (AKI)"},{"Code":"5","Description":"Acute Respiratory Distress Syndrome (ARDS)"},{"Code":"8","Description":"Cardiac Arrest With CPR"},{"Code":"12","Description":"Deep Surgical Site Infection"},{"Code":"14","Description":"Deep Vein Thrombosis (DVT)"},{"Code":"15","Description":"Extremity Compartment Syndrome"},{"Code":"18","Description":"Myocardial Infarction (MI)"},{"Code":"19","Description":"Organ/Space Surgical Site Infection"},{"Code":"21","Description":"Pulmonary Embolism (PE)"},{"Code":"22","Description":"Stroke/CVA"},{"Code":"25","Description":"Unplanned Intubation"},{"Code":"29","Description":"Osteomyelitis"},{"Code":"31","Description":"Unplanned Admission to ICU"},{"Code":"32","Description":"Severe Sepsis"},{"Code":"33","Description":"Catheter-Associated Urinary Tract Infection (CAUTI)"},{"Code":"34","Description":"Central Line-Associated Bloodstream Infection (CLABSI)"},{"Code":"35","Description":"Ventilator-Associated Pneumonia (VAP)"},{"Code":"36","Description":"Alcohol Withdrawal Syndrome"},{"Code":"37","Description":"Pressure Ulcer"},{"Code":"38","Description":"Superficial Incisional Surgical Site Infection"},{"Code":"39","Description":"Delirium"},{"Code":"40","Description":"Unplanned Visit to the Operating Room"}]}
+*3
+$3
+SET
+$26
+NationalProviderIdentifier
+$145
+{"Name":"NationalProviderIdentifier","Description":"The National Provider Identifier (NPI) of the admitting surgeon.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$20
+TbiPupillaryResponse
+$295
+{"Name":"TbiPupillaryResponse","Description":"Physiological response of the pupil size within 30 minutes or less of ED/hospital arrival.","Data_Type_Record_List":[{"Code":"1","Description":"Both Reactive"},{"Code":"2","Description":"One Reactive"},{"Code":"3","Description":"Neither Reactive"}]}
+*3
+$3
+SET
+$15
+TbiMidlineShift
+$276
+{"Name":"TbiMidlineShift","Description":"> 5mm shift of the brain past its center line within 24 hours after time of injury","Data_Type_Record_List":[{"Code":"1","Description":"Yes"},{"Code":"2","Description":"No"},{"Code":"3","Description":"Not Imaged (E.g. CT Scan, MRI)"}]}
+*3
+$3
+SET
+$18
+TbiCerebralMonitor
+$508
+{"Name":"TbiCerebralMonitor","Description":"All cerebral monitors that were placed.","Data_Type_Record_List":[{"Code":"1","Description":"Intraventricular Drain/Catheter (E.g. Ventriculostomy, External Ventricular Drain)"},{"Code":"2","Description":"Intraparenchymal Pressure Monitor (E.g. Camino Bolt, Subarachnoid Bolt, Intraparenchymal Catheter)"},{"Code":"3","Description":"Intraparenchymal Oxygen Monitor (E.g. Licox)"},{"Code":"4","Description":"Jugular Venous Bulb"},{"Code":"5","Description":"None"}]}
+*3
+$3
+SET
+$18
+VteProphylaxisType
+$463
+{"Name":"VteProphylaxisType","Description":"Type of first dose of VTE prophylaxis administered to patient.","Data_Type_Record_List":[{"Code":"5","Description":"None"},{"Code":"6","Description":"LMWH (Dalteparin, Enoxaparin, Etc.)"},{"Code":"7","Description":"Direct Thrombin Inhibitor (Dabigatran, Etc.)"},{"Code":"8","Description":"Xa Inhibitor (Rivaroxaban, Etc.)"},{"Code":"10","Description":"Other"},{"Code":"11","Description":"Unfractionated Heparin (UH)"}]}
+*3
+$3
+SET
+$12
+Fluids4Hours
+$131
+{"Name":"Fluids4Hours","Description":"Volume of fluids within first 4 hours after ED/hospital arrival.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+Angiography
+$358
+{"Name":"Angiography","Description":"First interventional angiogram with or without embolization within first 48 hours of ED/Hospital Arrival.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Angiogram Only"},{"Code":"3","Description":"Angiogram with Embolization"},{"Code":"4","Description":"Angiogram with Stenting"}]}
+*3
+$3
+SET
+$16
+EmbolizationSite
+$460
+{"Name":"EmbolizationSite","Description":"Organ / Site of Embolization for Hemorrhage Control.","Data_Type_Record_List":[{"Code":"1","Description":"Liver"},{"Code":"2","Description":"Spleen"},{"Code":"3","Description":"Kidneys"},{"Code":"4","Description":"Pelvic (Iliac, Gluteal, Obturator)"},{"Code":"5","Description":"Retroperitoneum (Lumbar, Sacral)"},{"Code":"6","Description":"Peripheral Vascular (Neck, Extremities)"},{"Code":"8","Description":"Other"}]}
+*3
+$3
+SET
+$28
+HemorrhageControlSurgeryType
+$608
+{"Name":"HemorrhageControlSurgeryType","Description":"First type of surgery for hemorrhage control within the first 24 hours of ED/hospital arrival.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Laparotomy"},{"Code":"3","Description":"Thoracotomy"},{"Code":"4","Description":"Sternotomy"},{"Code":"5","Description":"Extremity"},{"Code":"6","Description":"Neck"},{"Code":"7","Description":"Mangled Extremity/Traumatic Amputation"},{"Code":"8","Description":"Other Skin/Soft Tissue (E.g. Scalp Laceration)"},{"Code":"9","Description":"Extraperitoneal Pelvic Packing"}]}
+*3
+$3
+SET
+$5
+YesNo
+$160
+{"Name":"YesNo","Description":"Used in many binary choice elements.","Data_Type_Record_List":[{"Code":"1","Description":"Yes"},{"Code":"2","Description":"No"}]}
+*3
+$3
+SET
+$12
+Date19902030
+$129
+{"Name":"Date19902030","Description":"Standard date range from January 01, 1990 to January 01, 2030.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+Date20102030
+$129
+{"Name":"Date20102030","Description":"Standard date range from January 01, 2010 to January 01, 2030.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$4
+Time
+$74
+{"Name":"Time","Description":"Used for times.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$3
+Zip
+$93
+{"Name":"Zip","Description":"Used for all types of postal codes.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$7
+Country
+$86
+{"Name":"Country","Description":"Two-letter country code.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$5
+State
+$92
+{"Name":"State","Description":"Two-digit US state codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$6
+County
+$93
+{"Name":"County","Description":"Three-digit county codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$4
+City
+$88
+{"Name":"City","Description":"Five-digit city codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$8
+String50
+$85
+{"Name":"String50","Description":"Fifty-character string","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+String100
+$92
+{"Name":"String100","Description":"One hundred-character string","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+EnElementKey
+$199
+{"Name":"EnElementKey","Description":"The element type (e.g. Complication, Comorbidity).","Data_Type_Record_List":[{"Code":"1","Description":"Complication"},{"Code":"2","Description":"Comorbidity"}]}
+*3
+$3
+SET
+$10
+EnValueKey
+$108
+{"Name":"EnValueKey","Description":"The menu value for the select element type.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$13
+TimelinessKey
+$307
+{"Name":"TimelinessKey","Description":"Specifies which vitals are permitted to be expressed as explicit.","Data_Type_Record_List":[{"Code":"1","Description":"Height"},{"Code":"2","Description":"Weight"},{"Code":"3","Description":"Initial Prehospital Vitals"},{"Code":"4","Description":"Initial ED Vitals"}]}
+*3
+$3
+SET
+$14
+SoftwareVendor
+$374
+{"Name":"SoftwareVendor","Description":"Name of the software vendor providing the system in which the record was created.","Data_Type_Record_List":[{"Code":"0","Description":"Other"},{"Code":"1","Description":"Clinical Data Management"},{"Code":"2","Description":"Digital Innovation"},{"Code":"3","Description":"Image Trend"},{"Code":"4","Description":"Lancet Technology"}]}
+*3
+$3
+SET
+$15
+SoftwareProduct
+$579
+{"Name":"SoftwareProduct","Description":"Name of the software product in which the record was created.","Data_Type_Record_List":[{"Code":"0","Description":"Other"},{"Code":"101","Description":"TraumaBase"},{"Code":"102","Description":"eTraumaBase"},{"Code":"201","Description":"V5"},{"Code":"202","Description":"CV4/CVW"},{"Code":"203","Description":"NTRACS"},{"Code":"204","Description":"Web Collector"},{"Code":"301","Description":"Patient Registry"},{"Code":"401","Description":"Trauma One"},{"Code":"402","Description":"Trauma One Web"},{"Code":"403","Description":"TEMIS"}]}
+*3
+$3
+SET
+$5
+Blank
+$81
+{"Name":"Blank","Description":"Used for blanks/nulls","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen20
+$71
+{"Name":"stringMaxLen20","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen30
+$71
+{"Name":"stringMaxLen30","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen50
+$71
+{"Name":"stringMaxLen50","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen100
+$72
+{"Name":"stringMaxLen100","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen200
+$72
+{"Name":"stringMaxLen200","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen500
+$72
+{"Name":"stringMaxLen500","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+dateTimePattern
+$72
+{"Name":"dateTimePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+datePattern
+$68
+{"Name":"datePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+timePattern
+$68
+{"Name":"timePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$19
+data_type_name_list
+$1378
+["LinkageType","HomeResidence","DateOfBirth","Age","AgeUnits","Race","Ethnicity","Sex","PatientsOccupationalIndustry","PatientsOccupation","ECodeIcd10","PlaceOfInjuryCode","ProtectiveDevice","ChildSpecificRestraint","AirbagDeployment","TraumaType","TransportMode","TraumaCenterCriterion","VehiclePedestrianOther","Sbp","PulseRate","Temperature","RespiratoryRate","RespiratoryAssistance","PulseOximetry","SupplementalOxygen","GcsEye","GcsVerbal","GcsMotor","TotalGcs","GcsQualifier","Gcs40Eye","Gcs40Verbal","Gcs40Motor","Height","Weight","DrugScreen","AlcoholScreenResult","EdDischargeDisposition","DeathInEd","HospitalProcedureIcd10","ComorbidCondition","DiagnosisIcd10","AisPredot","AisSeverity","IssRegion","AisVersion","IssLocal","TotalIcuLos","TotalVentDays","HospitalDischargeDisposition","PrimaryMethodPayment","HospitalComplication","NationalProviderIdentifier","TbiPupillaryResponse","TbiMidlineShift","TbiCerebralMonitor","VteProphylaxisType","Fluids4Hours","Angiography","EmbolizationSite","HemorrhageControlSurgeryType","YesNo","Date19902030","Date20102030","Time","Zip","Country","State","County","City","String50","String100","EnElementKey","EnValueKey","TimelinessKey","SoftwareVendor","SoftwareProduct","Blank","stringMaxLen20","stringMaxLen30","stringMaxLen50","stringMaxLen100","stringMaxLen200","stringMaxLen500","dateTimePattern","datePattern","timePattern"]
+*3
+$3
+SET
+$11
+ITDX_LOADED
+$4
+true
+*3
+$3
+SET
+$11
+ITDX_LOADED
+$5
+false
+*3
+$3
+SET
+$11
+LinkageType
+$167
+{"Name":"LinkageType","Description":"The type of information in the record referenced by the link.","Data_Type_Record_List":[{"Code":"1","Description":"Prehospital"}]}
+*3
+$3
+SET
+$13
+HomeResidence
+$260
+{"Name":"HomeResidence","Description":"Documentation of the type of patient without a home ZIP code.","Data_Type_Record_List":[{"Code":"1","Description":"Homeless"},{"Code":"2","Description":"Undocumented Citizen"},{"Code":"3","Description":"Migrant Worker"}]}
+*3
+$3
+SET
+$11
+DateOfBirth
+$94
+{"Name":"DateOfBirth","Description":"The patient's date of birth.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$3
+Age
+$119
+{"Name":"Age","Description":"The patient's age at the time of injury (best approximation).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$8
+AgeUnits
+$348
+{"Name":"AgeUnits","Description":"The units used to document the patient's age (Years, Months, Days, Hours).","Data_Type_Record_List":[{"Code":"1","Description":"Hours"},{"Code":"2","Description":"Days"},{"Code":"3","Description":"Months"},{"Code":"4","Description":"Years"},{"Code":"5","Description":"Minutes"},{"Code":"6","Description":"Weeks"}]}
+*3
+$3
+SET
+$4
+Race
+$358
+{"Name":"Race","Description":"The patient's race.","Data_Type_Record_List":[{"Code":"1","Description":"Asian"},{"Code":"2","Description":"Native Hawaiian or Other Pacific Islander"},{"Code":"3","Description":"Other Race"},{"Code":"4","Description":"American Indian"},{"Code":"5","Description":"Black or African American"},{"Code":"6","Description":"White"}]}
+*3
+$3
+SET
+$9
+Ethnicity
+$187
+{"Name":"Ethnicity","Description":"The patient's ethnicity.","Data_Type_Record_List":[{"Code":"1","Description":"Hispanic or Latino"},{"Code":"2","Description":"Not Hispanic or Latino"}]}
+*3
+$3
+SET
+$3
+Sex
+$145
+{"Name":"Sex","Description":"The patient's sex.","Data_Type_Record_List":[{"Code":"1","Description":"Male"},{"Code":"2","Description":"Female"}]}
+*3
+$3
+SET
+$28
+PatientsOccupationalIndustry
+$890
+{"Name":"PatientsOccupationalIndustry","Description":"The occupational industry associated with the patient's work environment.","Data_Type_Record_List":[{"Code":"1","Description":"Finance, Insurance, and Real Estate"},{"Code":"2","Description":"Manufacturing"},{"Code":"3","Description":"Retail Trade"},{"Code":"4","Description":"Transportation and Public Utilities"},{"Code":"5","Description":"Agriculture, Forestry, Fishing"},{"Code":"6","Description":"Professional and Business Services"},{"Code":"7","Description":"Education and Health Services"},{"Code":"8","Description":"Construction"},{"Code":"9","Description":"Government"},{"Code":"10","Description":"Natural Resources and Mining"},{"Code":"11","Description":"Information Services"},{"Code":"12","Description":"Wholesale Trade"},{"Code":"13","Description":"Leisure and Hospitality"},{"Code":"14","Description":"Other Services"}]}
+*3
+$3
+SET
+$18
+PatientsOccupation
+$1673
+{"Name":"PatientsOccupation","Description":"The occupation of the patient.","Data_Type_Record_List":[{"Code":"1","Description":"Business and Financial Operations Occupations"},{"Code":"2","Description":"Architecture and Engineering Occupations"},{"Code":"3","Description":"Community and Social Services Occupations"},{"Code":"4","Description":"Education, Training, and Library Occupations"},{"Code":"5","Description":"Healthcare Practitioners and Technical Occupations"},{"Code":"6","Description":"Protective Service Occupations"},{"Code":"7","Description":"Building and Grounds Cleaning and Maintenance"},{"Code":"8","Description":"Sales and Related Occupations"},{"Code":"9","Description":"Farming, Fishing, and Forestry Occupations"},{"Code":"10","Description":"Installation, Maintenance, and Repair Occupations"},{"Code":"11","Description":"Transportation and Material Moving Occupations"},{"Code":"12","Description":"Management Occupations"},{"Code":"13","Description":"Computer and Mathematical Occupations"},{"Code":"14","Description":"Life, Physical, and Social Science Occupations"},{"Code":"15","Description":"Legal Occupations"},{"Code":"16","Description":"Arts, Design, Entertainment, Sports, and Media"},{"Code":"17","Description":"Healthcare Support Occupations"},{"Code":"18","Description":"Food Preparation and Serving Related"},{"Code":"19","Description":"Personal Care and Service Occupations"},{"Code":"20","Description":"Office and Administrative Support Occupations"},{"Code":"21","Description":"Construction and Extraction Occupations"},{"Code":"22","Description":"Production Occupations"},{"Code":"23","Description":"Military Specific Occupations"}]}
+*3
+$3
+SET
+$10
+ECodeIcd10
+$173
+{"Name":"ECodeIcd10","Description":"ICD-10 External cause code used to describe the mechanism (or external factor) that caused the injury event.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$17
+PlaceOfInjuryCode
+$188
+{"Name":"PlaceOfInjuryCode","Description":"ICD-10 Place of occurrence external cause code used to describe the place/site/location of the injury event (Y92.x).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$16
+ProtectiveDevice
+$762
+{"Name":"ProtectiveDevice","Description":"Protective devices (safety equipment) in use or worn by the patient at the time of the injury.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Lap Belt"},{"Code":"3","Description":"Personal Floatation Device"},{"Code":"4","Description":"Protective Non-Clothing Gear (E.g. Shin Guard)"},{"Code":"5","Description":"Eye Protection"},{"Code":"6","Description":"Child Restraint (Booster Seat or Child Car Seat)"},{"Code":"7","Description":"Helmet (E.g. Bicycle, Skiing, Motorcycle)"},{"Code":"8","Description":"Airbag Present"},{"Code":"9","Description":"Protective Clothing (E.g. Padded Leather Pants)"},{"Code":"10","Description":"Shoulder Belt"},{"Code":"11","Description":"Other"}]}
+*3
+$3
+SET
+$22
+ChildSpecificRestraint
+$286
+{"Name":"ChildSpecificRestraint","Description":"Protective child restraint devices used by patient at the time of injury.","Data_Type_Record_List":[{"Code":"1","Description":"Child Car Seat"},{"Code":"2","Description":"Infant Car Seat"},{"Code":"3","Description":"Child Booster Seat"}]}
+*3
+$3
+SET
+$16
+AirbagDeployment
+$367
+{"Name":"AirbagDeployment","Description":"Indication of an airbag deployment during a motor vehicle crash.","Data_Type_Record_List":[{"Code":"1","Description":"Airbag Not Deployed"},{"Code":"2","Description":"Airbag Deployed Front"},{"Code":"3","Description":"Airbag Deployed Side"},{"Code":"4","Description":"Airbag Deployed Other (Knee, Air Belt, Curtain, Etc.)"}]}
+*3
+$3
+SET
+$10
+TraumaType
+$291
+{"Name":"TraumaType","Description":"The main type of trauma injury sustained by the patient (e.g. blunt, penetrating).","Data_Type_Record_List":[{"Code":"1","Description":"Blunt"},{"Code":"2","Description":"Penetrating"},{"Code":"3","Description":"Burn"},{"Code":"4","Description":"Other"}]}
+*3
+$3
+SET
+$13
+TransportMode
+$406
+{"Name":"TransportMode","Description":"The mode of transport delivering the patient to your hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Ground Ambulance"},{"Code":"2","Description":"Helicopter Ambulance"},{"Code":"3","Description":"Fixed-Wing Ambulance"},{"Code":"4","Description":"Private/Public Vehicle/Walk-In"},{"Code":"5","Description":"Police"},{"Code":"6","Description":"Other"}]}
+*3
+$3
+SET
+$21
+TraumaCenterCriterion
+$1169
+{"Name":"TraumaCenterCriterion","Description":"Physiologic and anatomic EMS trauma triage criteria for transport to a trauma center as defined by the Centers for Disease Control and Prevention and the American College of Surgeons-Committee on Trauma. This information must be found on the scene of injury EMS run sheet.","Data_Type_Record_List":[{"Code":"1","Description":"Glasgow Coma Score <= 13"},{"Code":"2","Description":"Systolic Blood Pressure < 90 mmHg"},{"Code":"3","Description":"Respiratory Rate <10 or > 29 Breaths per Minute (<20 in Infants Aged <1 Year) or Need for Ventilatory Support"},{"Code":"4","Description":"All Penetrating Injuries to Head, Neck, Torso and Extremities Proximal to Elbow or Knee"},{"Code":"5","Description":"Chest Wall Instability or Deformity (E.g. Flail Chest)"},{"Code":"6","Description":"Two or More Proximal Long-Bone Fractures"},{"Code":"7","Description":"Crushed, Degloved, Mangled, or Pulseless Extremity"},{"Code":"8","Description":"Amputation Proximal to Wrist or Ankle"},{"Code":"9","Description":"Pelvic Fracture"},{"Code":"10","Description":"Open or Depressed Skull Fracture"},{"Code":"11","Description":"Paralysis"}]}
+*3
+$3
+SET
+$22
+VehiclePedestrianOther
+$1344
+{"Name":"VehiclePedestrianOther","Description":"EMS trauma triage mechanism of injury criteria for transport to a trauma center as defined by the Centers for Disease Control and Prevention and the American College of Surgeons-Committee on Trauma. This information must be found on the scene of injury EMS run sheet.","Data_Type_Record_List":[{"Code":"1","Description":"Fall Adults: > 20 ft. (One Story is Equal to 10 ft.)"},{"Code":"2","Description":"Fall Children: > 10 ft. or 2-3 Times the Height of the Child"},{"Code":"3","Description":"Crash Intrusion, Including Roof: > 12 in. Occupant Site; > 18 in. Any Site"},{"Code":"4","Description":"Crash Ejection (Partial or Complete) from Automobile"},{"Code":"5","Description":"Crash Death in Same Passenger Compartment"},{"Code":"6","Description":"Crash Vehicle Telemetry Data (AACN) Consistent with High Risk Injury"},{"Code":"7","Description":"Auto v. Pedestrian/Bicyclist Thrown, Run Over, or > 20 mph Impact "},{"Code":"8","Description":"Motorcycle Crash > 20 mph"},{"Code":"9","Description":"For Adults > 65; SBP < 110"},{"Code":"10","Description":"Patients on Anticoagulants and Bleeding Disorders"},{"Code":"11","Description":"Pregnancy > 20 Weeks"},{"Code":"12","Description":"EMS Provider Judgment"},{"Code":"13","Description":"Burns"},{"Code":"14","Description":"Burns with Trauma"}]}
+*3
+$3
+SET
+$3
+Sbp
+$116
+{"Name":"Sbp","Description":"First recorded systolic blood pressure in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+PulseRate
+$164
+{"Name":"PulseRate","Description":"First recorded pulse in the ED/hospital (palpated or auscultated), expressed as a number per minute.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+Temperature
+$144
+{"Name":"Temperature","Description":"First recorded temperature (in degrees Celsius/Centigrade) in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+RespiratoryRate
+$156
+{"Name":"RespiratoryRate","Description":"First recorded respiratory rate in the ED/hospital (expressed as a number per minute).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$21
+RespiratoryAssistance
+$284
+{"Name":"RespiratoryAssistance","Description":"Determination of respiratory assistance associated with the initial ED/hospital respiratory rate.","Data_Type_Record_List":[{"Code":"1","Description":"Unassisted Respiratory Rate"},{"Code":"2","Description":"Assisted Respiratory Rate"}]}
+*3
+$3
+SET
+$13
+PulseOximetry
+$148
+{"Name":"PulseOximetry","Description":"First recorded oxygen saturation in the ED/hospital (expressed as a percentage).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$18
+SupplementalOxygen
+$291
+{"Name":"SupplementalOxygen","Description":"Determination of the presence of supplemental oxygen during assessment of initial ED/hospital oxygen saturation level.","Data_Type_Record_List":[{"Code":"1","Description":"No Supplemental Oxygen"},{"Code":"2","Description":"Supplemental Oxygen"}]}
+*3
+$3
+SET
+$6
+GcsEye
+$381
+{"Name":"GcsEye","Description":"First recorded Glasgow Coma Score (Eye) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"No Eye Movement When Assessed"},{"Code":"2","Description":"Opens Eyes in Response to Painful Stimulation"},{"Code":"3","Description":"Opens Eyes in Response to Verbal Stimulation"},{"Code":"4","Description":"Opens Eyes Spontaneously"}]}
+*3
+$3
+SET
+$9
+GcsVerbal
+$634
+{"Name":"GcsVerbal","Description":"First recorded Glasgow Coma Score (Verbal) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"(Adult) No Verbal Response (Pediatric) No Vocal Response"},{"Code":"2","Description":"(Adult) Incomprehensible Sounds (Pediatric) Inconsolable, Agitated"},{"Code":"3","Description":"(Adult) Inappropriate Words (Pediatric) Inconsistently Consolable, Moaning"},{"Code":"4","Description":"(Adult) Confused (Pediatric) Cries but is Consolable, Inappropriate Interactions"},{"Code":"5","Description":"(Adult) Oriented (Pediatric) Smiles, Oriented to Sounds, Follows Objects, Interacts"}]}
+*3
+$3
+SET
+$8
+GcsMotor
+$457
+{"Name":"GcsMotor","Description":"First recorded Glasgow Coma Score (Motor) in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"No Motor Response"},{"Code":"2","Description":"Extension to Pain"},{"Code":"3","Description":"Flexion to Pain"},{"Code":"4","Description":"Withdrawal from Pain"},{"Code":"5","Description":"Localizing Pain"},{"Code":"6","Description":"(Adult) Obeys Commands (Pediatric) Appropriate Response to Stimulation"}]}
+*3
+$3
+SET
+$8
+TotalGcs
+$124
+{"Name":"TotalGcs","Description":"First recorded Glasgow Coma Score (total) in the ED/hospital.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+GcsQualifier
+$463
+{"Name":"GcsQualifier","Description":"Documentation of factors potentially affecting the first assessment of GCS upon arrival in the ED/hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Patient Chemically Sedated or Paralyzed"},{"Code":"2","Description":"Obstruction to the Patient's Eye"},{"Code":"3","Description":"Patient Intubated"},{"Code":"4","Description":"Valid GCS: Patient Not Sedated, Not Intubated, and Did Not Have Obstruction to Eye"}]}
+*3
+$3
+SET
+$8
+Gcs40Eye
+$359
+{"Name":"Gcs40Eye","Description":"First recorded Glasgow Coma Score at 40 (Eye Opening) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) To Pressure (Pediatric) To Pain"},{"Code":"3","Description":"To Sound"},{"Code":"4","Description":"Spontaneous"}]}
+*3
+$3
+SET
+$11
+Gcs40Verbal
+$485
+{"Name":"Gcs40Verbal","Description":"First recorded Glasgow Coma Score at 40 (Verbal Response) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) Sounds (Pediatric) Cries"},{"Code":"3","Description":"(Adult) Words (Pediatric) Vocal Sounds"},{"Code":"4","Description":"(Adult) Confused (Pediatric) Words"},{"Code":"5","Description":"(Adult) Oriented (Pediatric) Talks Normally"}]}
+*3
+$3
+SET
+$10
+Gcs40Motor
+$604
+{"Name":"Gcs40Motor","Description":"First recorded Glasgow Coma Score at 40 (Best Motor Response) in the ED/hospital.","Data_Type_Record_List":[{"Code":"0","Description":"Not Testable"},{"Code":"1","Description":"None"},{"Code":"2","Description":"(Adult) Extension (Pediatric) Extension to Pain"},{"Code":"3","Description":"(Adult) Abnormal Flexion (Pediatric) Flexion to Pain"},{"Code":"4","Description":"(Adult) Normal Flexion (Pediatric) Localizes Pain"},{"Code":"5","Description":"(Adult) Localizing (Pediatric) Obeys Commands"},{"Code":"6","Description":"(Adult) Obeys Commands (Pediatric) Blank"}]}
+*3
+$3
+SET
+$6
+Height
+$108
+{"Name":"Height","Description":"First recorded height upon ED/hospital arrival.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$6
+Weight
+$99
+{"Name":"Weight","Description":"Measured or estimated baseline weight.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$10
+DrugScreen
+$866
+{"Name":"DrugScreen","Description":"First recorded positive drug screen results within 24 hours after first hospital encounter (select all that apply).","Data_Type_Record_List":[{"Code":"1","Description":"AMP (Amphetamine)"},{"Code":"2","Description":"BAR (Barbiturate)"},{"Code":"3","Description":"BZO (Benzodiazepines)"},{"Code":"4","Description":"COC (Cocaine)"},{"Code":"5","Description":"mAMP (Methamphetamine)"},{"Code":"6","Description":"MDMA (Ecstasy)"},{"Code":"7","Description":"MTD (Methadone)"},{"Code":"8","Description":"OPI (Opioid)"},{"Code":"9","Description":"OXY (Oxycodone)"},{"Code":"10","Description":"PCP (Phencyclidine)"},{"Code":"11","Description":"TCA (Tricyclic Antidepressant)"},{"Code":"12","Description":"THC (Cannabinoid)"},{"Code":"13","Description":"Other"},{"Code":"14","Description":"None"},{"Code":"15","Description":"Not Tested"}]}
+*3
+$3
+SET
+$19
+AlcoholScreenResult
+$178
+{"Name":"AlcoholScreenResult","Description":"First recorded blood alcohol concentration (BAC) results within 24 hours after first hospital encounter.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$22
+EdDischargeDisposition
+$834
+{"Name":"EdDischargeDisposition","Description":"The disposition of the patient at the time of discharge from the ED.","Data_Type_Record_List":[{"Code":"1","Description":"Floor Bed (General Admission, Non-Specialty Unit Bed)"},{"Code":"2","Description":"Observation Unit (Unit That Provides < 24 Hour Stays)"},{"Code":"3","Description":"Telemetry/Step-Down Unit (Less Acuity than ICU)"},{"Code":"4","Description":"Home with Services"},{"Code":"5","Description":"Deceased/Expired"},{"Code":"6","Description":"Other (Jail, Institutional Care, Mental Health, Etc.)"},{"Code":"7","Description":"Operating Room"},{"Code":"8","Description":"Intensive Care Unit (ICU)"},{"Code":"9","Description":"Home Without Services"},{"Code":"10","Description":"Left Against Medical Advice"},{"Code":"11","Description":"Transferred to Another Hospital"}]}
+*3
+$3
+SET
+$9
+DeathInEd
+$250
+{"Name":"DeathInEd","Description":"Indication of whether patient arrived at ED/Hospital with signs of life.","Data_Type_Record_List":[{"Code":"1","Description":"Arrived with NO Signs of Life"},{"Code":"2","Description":"Arrived with Signs of Life"}]}
+*3
+$3
+SET
+$22
+HospitalProcedureIcd10
+$143
+{"Name":"HospitalProcedureIcd10","Description":"Operative and essential procedures conducted during hospital stay.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$17
+ComorbidCondition
+$1562
+{"Name":"ComorbidCondition","Description":"Pre-existing comorbid factors.","Data_Type_Record_List":[{"Code":"1","Description":"Other"},{"Code":"2","Description":"Alcohol Use Disorder"},{"Code":"4","Description":"Bleeding Disorder"},{"Code":"5","Description":"Currently Receiving Chemotherapy for Cancer"},{"Code":"6","Description":"Congenital Anomalies"},{"Code":"7","Description":"Congestive Heart Failure (CHF)"},{"Code":"8","Description":"Current Smoker"},{"Code":"9","Description":"Chronic Renal Failure"},{"Code":"10","Description":"Cerebral Vascular Accident (CVA)"},{"Code":"11","Description":"Diabetes Mellitus"},{"Code":"12","Description":"Disseminated Cancer"},{"Code":"13","Description":"Advance Directive Limiting Care"},{"Code":"15","Description":"Functionally Dependent Health Status"},{"Code":"19","Description":"Hypertension"},{"Code":"23","Description":"Chronic Obstructive Pulmonary Disease (COPD)"},{"Code":"24","Description":"Steroid Use"},{"Code":"25","Description":"Cirrhosis"},{"Code":"26","Description":"Dementia"},{"Code":"30","Description":"Attention Deficit Disorder/Attention Deficit Hyperactivity Disorder (ADD/ADHD)"},{"Code":"31","Description":"Anticoagulant Therapy"},{"Code":"32","Description":"Angina Pectoris"},{"Code":"33","Description":"Mental/Personality Disorders"},{"Code":"34","Description":"Myocardial Infarction (MI)"},{"Code":"35","Description":"Peripheral Arterial Disease (PAD)"},{"Code":"36","Description":"Substance Use Disorder"},{"Code":"37","Description":"Prematurity"},{"Code":"38","Description":"Pregnancy"}]}
+*3
+$3
+SET
+$14
+DiagnosisIcd10
+$114
+{"Name":"DiagnosisIcd10","Description":"Diagnoses related to all identified injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+AisPredot
+$151
+{"Name":"AisPredot","Description":"The Abbreviated Injury Scale (AIS) pre-dot codes that reflect the patient’s injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+AisSeverity
+$492
+{"Name":"AisSeverity","Description":"The Abbreviated Injury Scale (AIS) severity codes that reflect the patient’s injuries.","Data_Type_Record_List":[{"Code":"1","Description":"Minor Injury"},{"Code":"2","Description":"Moderate Injury"},{"Code":"3","Description":"Serious Injury"},{"Code":"4","Description":"Severe Injury"},{"Code":"5","Description":"Critical Injury"},{"Code":"6","Description":"Maximum Injury, Virtually Unsurvivable"},{"Code":"9","Description":"Not Possible to Assign"}]}
+*3
+$3
+SET
+$9
+IssRegion
+$417
+{"Name":"IssRegion","Description":"The Injury Severity Score (ISS) body region codes that reflects the patient’s injuries.","Data_Type_Record_List":[{"Code":"1","Description":"Head or Neck"},{"Code":"2","Description":"Face"},{"Code":"3","Description":"Chest"},{"Code":"4","Description":"Abdominal or Pelvic Contents"},{"Code":"5","Description":"Extremities or Pelvic Girdle"},{"Code":"6","Description":"External"}]}
+*3
+$3
+SET
+$10
+AisVersion
+$245
+{"Name":"AisVersion","Description":"The software (and version) used to calculate Abbreviated Injury Scale (AIS) severity codes.","Data_Type_Record_List":[{"Code":"6","Description":"AIS 2005, Update 2008"},{"Code":"16","Description":"AIS 2015"}]}
+*3
+$3
+SET
+$8
+IssLocal
+$134
+{"Name":"IssLocal","Description":"The Injury Severity Score (ISS) that reflects the patient’s injuries.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+TotalIcuLos
+$135
+{"Name":"TotalIcuLos","Description":"The total number of patient days in any ICU (including all episodes).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$13
+TotalVentDays
+$159
+{"Name":"TotalVentDays","Description":"The total number of patient days spent on a mechanical ventilator (including all episodes).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$28
+HospitalDischargeDisposition
+$1288
+{"Name":"HospitalDischargeDisposition","Description":"The disposition of the patient when discharged from the hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Discharged/Transferred to a Short-Term General Hospital for Inpatient Care"},{"Code":"2","Description":"Discharged/Transferred to an Intermediate Care Facility (ICF)"},{"Code":"3","Description":"Discharged/Transferred to Home Under Care of Organized Home Health Service"},{"Code":"4","Description":"Left Against Medical Advice or Discontinued Care"},{"Code":"5","Description":"Deceased/Expired"},{"Code":"6","Description":"Discharged to Home or Self-Care (Routine Discharge)"},{"Code":"7","Description":"Discharged/Transferred to Skilled Nursing Facility (SNF)"},{"Code":"8","Description":"Discharged/Transferred to Hospice Care"},{"Code":"10","Description":"Discharged/Transferred to Court/Law Enforcement"},{"Code":"11","Description":"Discharged/Transferred to Inpatient Rehab or Designated Unit"},{"Code":"12","Description":"Discharged/Transferred to Long Term Care Hospital (LTCH)"},{"Code":"13","Description":"Discharged/Transferred to a Psychiatric Hospital or Psych Distinct Part Unit of a Hospital"},{"Code":"14","Description":"Discharged/Transferred to Another Type of Institution Not Defined Elsewhere"}]}
+*3
+$3
+SET
+$20
+PrimaryMethodPayment
+$429
+{"Name":"PrimaryMethodPayment","Description":"Primary source of payment for hospital care.","Data_Type_Record_List":[{"Code":"1","Description":"Medicaid"},{"Code":"2","Description":"Not Billed (For Any Reason)"},{"Code":"3","Description":"Self-Pay"},{"Code":"4","Description":"Private/Commercial Insurance"},{"Code":"6","Description":"Medicare"},{"Code":"7","Description":"Other Government"},{"Code":"10","Description":"Other"}]}
+*3
+$3
+SET
+$20
+HospitalComplication
+$1486
+{"Name":"HospitalComplication","Description":"Any medical complication that occurred during the patient’s stay at your hospital.","Data_Type_Record_List":[{"Code":"1","Description":"Other"},{"Code":"4","Description":"Acute Kidney Injury (AKI)"},{"Code":"5","Description":"Acute Respiratory Distress Syndrome (ARDS)"},{"Code":"8","Description":"Cardiac Arrest With CPR"},{"Code":"12","Description":"Deep Surgical Site Infection"},{"Code":"14","Description":"Deep Vein Thrombosis (DVT)"},{"Code":"15","Description":"Extremity Compartment Syndrome"},{"Code":"18","Description":"Myocardial Infarction (MI)"},{"Code":"19","Description":"Organ/Space Surgical Site Infection"},{"Code":"21","Description":"Pulmonary Embolism (PE)"},{"Code":"22","Description":"Stroke/CVA"},{"Code":"25","Description":"Unplanned Intubation"},{"Code":"29","Description":"Osteomyelitis"},{"Code":"31","Description":"Unplanned Admission to ICU"},{"Code":"32","Description":"Severe Sepsis"},{"Code":"33","Description":"Catheter-Associated Urinary Tract Infection (CAUTI)"},{"Code":"34","Description":"Central Line-Associated Bloodstream Infection (CLABSI)"},{"Code":"35","Description":"Ventilator-Associated Pneumonia (VAP)"},{"Code":"36","Description":"Alcohol Withdrawal Syndrome"},{"Code":"37","Description":"Pressure Ulcer"},{"Code":"38","Description":"Superficial Incisional Surgical Site Infection"},{"Code":"39","Description":"Delirium"},{"Code":"40","Description":"Unplanned Visit to the Operating Room"}]}
+*3
+$3
+SET
+$26
+NationalProviderIdentifier
+$145
+{"Name":"NationalProviderIdentifier","Description":"The National Provider Identifier (NPI) of the admitting surgeon.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$20
+TbiPupillaryResponse
+$295
+{"Name":"TbiPupillaryResponse","Description":"Physiological response of the pupil size within 30 minutes or less of ED/hospital arrival.","Data_Type_Record_List":[{"Code":"1","Description":"Both Reactive"},{"Code":"2","Description":"One Reactive"},{"Code":"3","Description":"Neither Reactive"}]}
+*3
+$3
+SET
+$15
+TbiMidlineShift
+$276
+{"Name":"TbiMidlineShift","Description":"> 5mm shift of the brain past its center line within 24 hours after time of injury","Data_Type_Record_List":[{"Code":"1","Description":"Yes"},{"Code":"2","Description":"No"},{"Code":"3","Description":"Not Imaged (E.g. CT Scan, MRI)"}]}
+*3
+$3
+SET
+$18
+TbiCerebralMonitor
+$508
+{"Name":"TbiCerebralMonitor","Description":"All cerebral monitors that were placed.","Data_Type_Record_List":[{"Code":"1","Description":"Intraventricular Drain/Catheter (E.g. Ventriculostomy, External Ventricular Drain)"},{"Code":"2","Description":"Intraparenchymal Pressure Monitor (E.g. Camino Bolt, Subarachnoid Bolt, Intraparenchymal Catheter)"},{"Code":"3","Description":"Intraparenchymal Oxygen Monitor (E.g. Licox)"},{"Code":"4","Description":"Jugular Venous Bulb"},{"Code":"5","Description":"None"}]}
+*3
+$3
+SET
+$18
+VteProphylaxisType
+$463
+{"Name":"VteProphylaxisType","Description":"Type of first dose of VTE prophylaxis administered to patient.","Data_Type_Record_List":[{"Code":"5","Description":"None"},{"Code":"6","Description":"LMWH (Dalteparin, Enoxaparin, Etc.)"},{"Code":"7","Description":"Direct Thrombin Inhibitor (Dabigatran, Etc.)"},{"Code":"8","Description":"Xa Inhibitor (Rivaroxaban, Etc.)"},{"Code":"10","Description":"Other"},{"Code":"11","Description":"Unfractionated Heparin (UH)"}]}
+*3
+$3
+SET
+$12
+Fluids4Hours
+$131
+{"Name":"Fluids4Hours","Description":"Volume of fluids within first 4 hours after ED/hospital arrival.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+Angiography
+$358
+{"Name":"Angiography","Description":"First interventional angiogram with or without embolization within first 48 hours of ED/Hospital Arrival.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Angiogram Only"},{"Code":"3","Description":"Angiogram with Embolization"},{"Code":"4","Description":"Angiogram with Stenting"}]}
+*3
+$3
+SET
+$16
+EmbolizationSite
+$460
+{"Name":"EmbolizationSite","Description":"Organ / Site of Embolization for Hemorrhage Control.","Data_Type_Record_List":[{"Code":"1","Description":"Liver"},{"Code":"2","Description":"Spleen"},{"Code":"3","Description":"Kidneys"},{"Code":"4","Description":"Pelvic (Iliac, Gluteal, Obturator)"},{"Code":"5","Description":"Retroperitoneum (Lumbar, Sacral)"},{"Code":"6","Description":"Peripheral Vascular (Neck, Extremities)"},{"Code":"8","Description":"Other"}]}
+*3
+$3
+SET
+$28
+HemorrhageControlSurgeryType
+$608
+{"Name":"HemorrhageControlSurgeryType","Description":"First type of surgery for hemorrhage control within the first 24 hours of ED/hospital arrival.","Data_Type_Record_List":[{"Code":"1","Description":"None"},{"Code":"2","Description":"Laparotomy"},{"Code":"3","Description":"Thoracotomy"},{"Code":"4","Description":"Sternotomy"},{"Code":"5","Description":"Extremity"},{"Code":"6","Description":"Neck"},{"Code":"7","Description":"Mangled Extremity/Traumatic Amputation"},{"Code":"8","Description":"Other Skin/Soft Tissue (E.g. Scalp Laceration)"},{"Code":"9","Description":"Extraperitoneal Pelvic Packing"}]}
+*3
+$3
+SET
+$5
+YesNo
+$160
+{"Name":"YesNo","Description":"Used in many binary choice elements.","Data_Type_Record_List":[{"Code":"1","Description":"Yes"},{"Code":"2","Description":"No"}]}
+*3
+$3
+SET
+$12
+Date19902030
+$129
+{"Name":"Date19902030","Description":"Standard date range from January 01, 1990 to January 01, 2030.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+Date20102030
+$129
+{"Name":"Date20102030","Description":"Standard date range from January 01, 2010 to January 01, 2030.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$4
+Time
+$74
+{"Name":"Time","Description":"Used for times.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$3
+Zip
+$93
+{"Name":"Zip","Description":"Used for all types of postal codes.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$7
+Country
+$86
+{"Name":"Country","Description":"Two-letter country code.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$5
+State
+$92
+{"Name":"State","Description":"Two-digit US state codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$6
+County
+$93
+{"Name":"County","Description":"Three-digit county codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$4
+City
+$88
+{"Name":"City","Description":"Five-digit city codes (FIPS).","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$8
+String50
+$85
+{"Name":"String50","Description":"Fifty-character string","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$9
+String100
+$92
+{"Name":"String100","Description":"One hundred-character string","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$12
+EnElementKey
+$199
+{"Name":"EnElementKey","Description":"The element type (e.g. Complication, Comorbidity).","Data_Type_Record_List":[{"Code":"1","Description":"Complication"},{"Code":"2","Description":"Comorbidity"}]}
+*3
+$3
+SET
+$10
+EnValueKey
+$108
+{"Name":"EnValueKey","Description":"The menu value for the select element type.","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$13
+TimelinessKey
+$307
+{"Name":"TimelinessKey","Description":"Specifies which vitals are permitted to be expressed as explicit.","Data_Type_Record_List":[{"Code":"1","Description":"Height"},{"Code":"2","Description":"Weight"},{"Code":"3","Description":"Initial Prehospital Vitals"},{"Code":"4","Description":"Initial ED Vitals"}]}
+*3
+$3
+SET
+$14
+SoftwareVendor
+$374
+{"Name":"SoftwareVendor","Description":"Name of the software vendor providing the system in which the record was created.","Data_Type_Record_List":[{"Code":"0","Description":"Other"},{"Code":"1","Description":"Clinical Data Management"},{"Code":"2","Description":"Digital Innovation"},{"Code":"3","Description":"Image Trend"},{"Code":"4","Description":"Lancet Technology"}]}
+*3
+$3
+SET
+$15
+SoftwareProduct
+$579
+{"Name":"SoftwareProduct","Description":"Name of the software product in which the record was created.","Data_Type_Record_List":[{"Code":"0","Description":"Other"},{"Code":"101","Description":"TraumaBase"},{"Code":"102","Description":"eTraumaBase"},{"Code":"201","Description":"V5"},{"Code":"202","Description":"CV4/CVW"},{"Code":"203","Description":"NTRACS"},{"Code":"204","Description":"Web Collector"},{"Code":"301","Description":"Patient Registry"},{"Code":"401","Description":"Trauma One"},{"Code":"402","Description":"Trauma One Web"},{"Code":"403","Description":"TEMIS"}]}
+*3
+$3
+SET
+$5
+Blank
+$81
+{"Name":"Blank","Description":"Used for blanks/nulls","Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen20
+$71
+{"Name":"stringMaxLen20","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen30
+$71
+{"Name":"stringMaxLen30","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$14
+stringMaxLen50
+$71
+{"Name":"stringMaxLen50","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen100
+$72
+{"Name":"stringMaxLen100","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen200
+$72
+{"Name":"stringMaxLen200","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+stringMaxLen500
+$72
+{"Name":"stringMaxLen500","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$15
+dateTimePattern
+$72
+{"Name":"dateTimePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+datePattern
+$68
+{"Name":"datePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$11
+timePattern
+$68
+{"Name":"timePattern","Description":null,"Data_Type_Record_List":[]}
+*3
+$3
+SET
+$19
+data_type_name_list
+$1378
+["LinkageType","HomeResidence","DateOfBirth","Age","AgeUnits","Race","Ethnicity","Sex","PatientsOccupationalIndustry","PatientsOccupation","ECodeIcd10","PlaceOfInjuryCode","ProtectiveDevice","ChildSpecificRestraint","AirbagDeployment","TraumaType","TransportMode","TraumaCenterCriterion","VehiclePedestrianOther","Sbp","PulseRate","Temperature","RespiratoryRate","RespiratoryAssistance","PulseOximetry","SupplementalOxygen","GcsEye","GcsVerbal","GcsMotor","TotalGcs","GcsQualifier","Gcs40Eye","Gcs40Verbal","Gcs40Motor","Height","Weight","DrugScreen","AlcoholScreenResult","EdDischargeDisposition","DeathInEd","HospitalProcedureIcd10","ComorbidCondition","DiagnosisIcd10","AisPredot","AisSeverity","IssRegion","AisVersion","IssLocal","TotalIcuLos","TotalVentDays","HospitalDischargeDisposition","PrimaryMethodPayment","HospitalComplication","NationalProviderIdentifier","TbiPupillaryResponse","TbiMidlineShift","TbiCerebralMonitor","VteProphylaxisType","Fluids4Hours","Angiography","EmbolizationSite","HemorrhageControlSurgeryType","YesNo","Date19902030","Date20102030","Time","Zip","Country","State","County","City","String50","String100","EnElementKey","EnValueKey","TimelinessKey","SoftwareVendor","SoftwareProduct","Blank","stringMaxLen20","stringMaxLen30","stringMaxLen50","stringMaxLen100","stringMaxLen200","stringMaxLen500","dateTimePattern","datePattern","timePattern"]
+*3
+$3
+SET
+$11
+ITDX_LOADED
+$4
+true
