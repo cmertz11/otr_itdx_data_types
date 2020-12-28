@@ -6,7 +6,7 @@ EXPOSE 80
 
 LABEL maintainer="Chris Mertz" \
 	  name="otr_itdx_data_types" \
-	  version="0.1"
+	  version="0.2"
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
