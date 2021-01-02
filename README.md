@@ -20,5 +20,5 @@ Unzip package and find file Data_Types_2020.xsd.  You need this file to hydrate 
 2. Run Docker compose in VS 2019
 ![](Images/vsrun.JPG)
 
-3. Unzip ItdxSchema
+3. Navigate to http://localhost:8000/swagger/index.html and select POST then click the "Try it out" button.
 
