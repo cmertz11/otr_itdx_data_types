@@ -22,3 +22,5 @@ Unzip package and find file Data_Types_2020.xsd.  You need this file to hydrate 
 
 3. Navigate to http://localhost:8000/swagger/index.html and select POST then click the "Try it out" button.
 
+![](Images/Swagger1.JPG)
+![](Images/loadfile.JPG)
