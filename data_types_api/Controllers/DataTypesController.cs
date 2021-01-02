@@ -1,12 +1,9 @@
-﻿using data_types_api.Data;
-using data_types_api.Data.Models;
+﻿using data_types_api.Data.Models;
 using data_types_api.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
