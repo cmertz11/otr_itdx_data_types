@@ -17,3 +17,5 @@ You find this file at http://www.traumavendoralliance.org/resources/
 1. Clone or download
 2. Run Docker compose in VS 2019
 
+![](Images/vsrun.JPG)
+
