@@ -9,11 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "data_types_api", "data_type
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{05CEAECC-7F41-406B-B474-FC19B6C3372F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{B5154820-4619-43C4-9088-B96234062161}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\TraumaRegistry\itdsschemadefinition.JPG = ..\..\..\..\Desktop\TraumaRegistry\itdsschemadefinition.JPG
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
