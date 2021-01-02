@@ -13,9 +13,12 @@ You find this file at http://www.traumavendoralliance.org/resources/
 
 ![](Images/itdsschemadefinition.JPG)
 
+Unzip package and find file Data_Types_2020.xsd.  You need this file to hydrate microservice cache.
+
 ## Directions
 1. Clone or download
 2. Run Docker compose in VS 2019
-
 ![](Images/vsrun.JPG)
+
+3. Unzip ItdxSchema
 
