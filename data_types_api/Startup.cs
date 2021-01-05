@@ -34,7 +34,7 @@ namespace data_types_api
                 options.SerializerSettings.ReferenceLoopHandling =
                 Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
-            var redisConnectionString = Configuration.GetSection("Data_Type_Db_Settings")["ConnectionString"];
+            var redisConnectionString = Configuration.GetSection("itdx_data_type_db_Settings")["ConnectionString"];
             
 
             services.Configure<Data_Type_Db_Settings>(Configuration.GetSection(nameof(Data_Type_Db_Settings)));
@@ -61,7 +61,7 @@ namespace data_types_api
 
             services.AddHealthChecksUI(opt =>
             {
-                opt.AddHealthCheckEndpoint("Redis", Configuration.GetSection("healthcheck")["endpoint"]);
+                opt.AddHealthCheckEndpoint("ITDX DataTypes API", Configuration.GetSection("healthcheck")["endpoint"]);
             })
             .AddInMemoryStorage();
 
